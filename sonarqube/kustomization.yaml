@@ -1,0 +1,15 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+# Automatic namespace creation layer
+namespace: devops-tools
+
+resources:
+  - deployment.yaml
+  - service.yaml
+
+# Common labels applied to all resources
+labels:
+  - pairs:
+      managed-by: devopsvaultx-team
+      tool: sonarqube
