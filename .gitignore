@@ -1,0 +1,14 @@
+# Kubernetes
+*.log
+*.out
+*.err
+*.pid
+*.sock
+*.tmp
+*.bak
+*.swp
+*.backup
+*.cache
+*.env
+*.kubeconfig
+*.kube
