@@ -1,24 +1,22 @@
-<!-- 🚀 Thank you for contributing to Tools_For_Devops! Please fill out the short form below. -->
+<!-- 🚀 Thank you for contributing to tools-for-devops! Please fill out the short form below. -->
 
 ## 📝 Description
 
 Briefly explain what tools or fixes you are introducing in this PR.
-*(e.g., Added HashiCorp Vault manifest under folder /vault)*
+*(e.g., Added Prometheus & Grafana guide in monitoring-setup.md, updated tools-for-devops.sh)*
 
 ## 🛠️ Type of Change
 
-- [ ] ➕ New DevOps tool manifest
-- [ ] 🔧 Bug fix / Manifest optimization
-- [ ] 📖 Documentation update (README)
+- [ ] ➕ New DevOps tool guide (`<tool>-setup.md`)
+- [ ] 📜 Automation script update (`tools-for-devops.sh`)
+- [ ] 🔧 Fix / Configuration improvement
+- [ ] 📖 Documentation update (`README.md`)
 
 ## 📋 Quality Checklist
 
-- [ ] My code follows the directory structure (`folder/kustomization.yaml`).
-- [ ] I have pinned specific image versions instead of using the `latest` tag.
-- [ ] Resource requests and limits are defined to prevent cluster memory pressure.
-- [ ] Simple English comments are added inside the YAML manifests where needed.
+- [ ] My guide follows the naming convention (`<tool>-setup.md`).
+- [ ] All installation commands and scripts are tested and working.
+- [ ] Added setup options/menus to `tools-for-devops.sh` (if applicable).
+- [ ] Content is clear, concise, and easy to follow.
 
-## 🧪 Testing Evidence
-
-- Did you test this manifest locally using your KinD cluster? (Yes/No)
-- Put a screenshot or paste `kubectl get pods -n devops-tools` output here if applicable.
+---
